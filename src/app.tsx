@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <button onClick={() => setCount(count + 1)}> counts is {count} </button>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.DEV ? "/" : "/gymrat/"}>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

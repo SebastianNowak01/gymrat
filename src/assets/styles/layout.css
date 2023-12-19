@@ -2,6 +2,17 @@ nav {
   grid-area: nav;
 }
 
+nav > ul {
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  width:fit-content;
+}
+
 main {
   grid-area: main;
 }

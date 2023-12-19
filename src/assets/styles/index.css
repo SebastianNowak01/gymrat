@@ -32,9 +32,9 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 5rem 1fr;
-  grid-template-rows: 100vh;
-  grid-template-areas: "nav main";
+  grid-template-columns: 100vw;
+  grid-template-rows:  5rem 1fr;
+  grid-template-areas: "nav" "main";
 }
 
 h1 {
